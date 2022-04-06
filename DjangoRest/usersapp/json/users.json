@@ -1,0 +1,30 @@
+[
+    {
+        "username": "Alex_1234",
+        "first_name": "Aleksey",
+        "last_name": "Tarakanov",
+        "email": "Alex_1234@mail.ru",
+        "age": "33"
+    },
+    {
+        "username": "Vovan_666",
+        "first_name": "Vladimir",
+        "last_name": "Ivanov",
+        "email": "Vovan_666@mail.ru",
+        "age": "33"
+    },
+    {
+        "username": "Boryusik_123",
+        "first_name": "Boris",
+        "last_name": "Borisov",
+        "email": "Boryusik_123@mail.ru",
+        "age": "33"
+    },
+    {
+        "username": "Andron_888",
+        "first_name": "Andrey",
+        "last_name": "Levashov",
+        "email": "Andron_888@mail.ru",
+        "age": "33"
+    }
+]
