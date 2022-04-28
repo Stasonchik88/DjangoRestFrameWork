@@ -20,7 +20,7 @@ class ProjectModelViewSet(ModelViewSet):
     serializer_class = ProjectModelSerializer
     filterset_class = ProjectFilter
     filter_backends = (filters.DjangoFilterBackend,)
-    pagination_class = ProjectLimitOffsetPagination
+    # pagination_class = ProjectLimitOffsetPagination
 
 
 class ToDoLimitOffsetPagination(LimitOffsetPagination):
@@ -33,7 +33,7 @@ class ToDoModelViewSet(ModelViewSet):
     serializer_class = ToDoModelSerializer
     filterset_class = ToDoFilter
     filter_backends = (filters.DjangoFilterBackend,)
-    pagination_class = ToDoLimitOffsetPagination
+    # pagination_class = ToDoLimitOffsetPagination
 
     def destroy(self, request, pk=None):
         todo = get_object_or_404(ToDo, pk=pk)

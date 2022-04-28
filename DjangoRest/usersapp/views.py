@@ -6,9 +6,9 @@ from .models import myUser
 from .serializers import UserModelSerializer, UserSerializer
 
 
-class UserModelViewSet(ModelViewSet):
-    queryset = myUser.objects.all()
-    serializer_class = UserModelSerializer
+# class UserModelViewSet(ModelViewSet):
+#     queryset = myUser.objects.all()
+#     serializer_class = UserModelSerializer
 
 
 def user_get(request, pk=None):
